@@ -1,0 +1,44 @@
+header{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+    .tabulaNav{
+        display: flex;
+        padding: 0;
+    }
+    .navbar-toggler-icon{
+        font-size: $fs-5;
+        color: $color-dark;
+    }
+    #tabulaNavbar{
+        .nav-link{
+            @include styleText($fs-1,$fw-3,$color-dark);
+            transition: 0.3s ease;
+            &:hover{
+            @include styleText($fs-1,$fw-3,$color-pink);
+
+            }
+        }
+        li{
+            margin-right: 30px;
+        }
+        .button-hotline{
+            margin-right: 30px;
+        }
+        i{
+            margin-right: 15px;
+            &:hover{
+                color: $color-pink;
+                cursor: pointer;
+                }
+        }
+    }
+
+}
+.yellow-top{
+    position: absolute;
+    top: -40px;
+    left: -320px;
+}

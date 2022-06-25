@@ -1,0 +1,65 @@
+.footer{
+
+    background-image: url(/img/footer_background.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    bottom: -615px;
+    color: #fff;
+    .accent{
+        position: absolute;
+        top:-620px;
+        z-index: -2;
+    }
+    .row{
+        padding-top: 100px;
+        .col{
+            i{
+                margin-right: 10px;
+            }
+
+            h1{
+                font-size: $fs-3;
+                font-weight:$fw-3;
+                margin-bottom: 30px;
+            }
+            .subcribe{
+                input{
+                    text-align: center;
+                    padding: 10px;
+                    border-radius: 50px;
+                    margin-bottom: 10px;
+                    background-color: $color-pink;
+                    color: #fff;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    &:focus{
+                    border: 1px solid $color-white;
+                    outline: none
+                    }
+                    &::placeholder{
+                        color: #fff
+                    }
+                };
+                button{
+                    text-align: center;
+                    padding: 10px 60px;
+                    border-radius: 50px;
+                    margin-bottom: 10px;
+                    background-color: $color-white;
+                    color: #000;
+                    border: 1px solid $color-white;
+                    &:hover{
+                    background-color: $color-pink;
+                    }
+                }
+            }
+        }
+        .col-border{
+            p{
+                border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+            }
+        }
+    }
+}

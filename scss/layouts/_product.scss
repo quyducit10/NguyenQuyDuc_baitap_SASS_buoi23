@@ -1,0 +1,112 @@
+.team{
+    padding-top: 80px;
+    background-image: url(/img/Violet_top_left_wave.png);
+    background-size: cover;
+    height: 1000px;
+    position:relative;
+    .row{
+        
+        padding-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        
+        .col{
+           width: 25%; 
+           padding: 0 15px;
+           border-radius: 15px;
+           .item{
+            position: absolute;
+            border-radius: 10px;
+            transition: 0.4s;
+            overflow: hidden;
+            &:hover{
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            }
+            .image{
+            overflow: hidden;
+
+                
+                img{
+                border-radius: 10px 10px 0 0;
+    
+                    width: 100%;
+                    transition: 0.4s;
+                    &:hover{
+                        transform: scale(1.07);
+                    }
+                }
+            }
+            .info{
+                background-color: $color-white;
+                border-radius: 0 0  10px 10px;
+                text-align: center;
+                padding: 10px;
+                h3{
+                    font-size: $fs-1;
+                    color: $color-pink;
+                }
+                h1{
+                    font-size: $fs-3;
+                    font-weight: $fw-3;
+                }
+            }
+           }
+           
+        }
+
+    }
+    .row2{
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        
+        .col{
+           width: 25%; 
+           padding: 0 15px;
+           border-radius: 15px;
+           .item{
+            position: absolute;
+            top: 320px;
+            z-index: 6;
+            border-radius: 10px;
+            transition: 0.4s;
+            overflow: hidden;
+            &:hover{
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            }
+            .image{
+            overflow: hidden;
+
+                
+                img{
+                border-radius: 10px 10px 0 0;
+    
+                    width: 100%;
+                    transition: 0.4s;
+                    &:hover{
+                        transform: scale(1.07);
+                    }
+                }
+            }
+            .info{
+                background-color: $color-white;
+                border-radius: 0 0  10px 10px;
+                text-align: center;
+                padding: 10px;
+                h3{
+                    font-size: $fs-1;
+                    color: $color-pink;
+                }
+                h1{
+                    font-size: $fs-3;
+                    font-weight: $fw-3;
+                }
+            }
+           }
+           
+        }
+
+    }
+}

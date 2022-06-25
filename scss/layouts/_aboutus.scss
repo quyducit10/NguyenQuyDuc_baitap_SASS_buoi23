@@ -1,0 +1,24 @@
+.about-us{
+    position: relative;
+    top: 130px;
+    .row{
+        display: flex;
+        .col1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3{
+                font-size: $fs-2;
+                color: $color-pink;
+                font-weight: $fw-3;
+            }
+             h1{
+                font-size: $fs-8 + 10;
+                font-weight: $fw-4;
+             }   
+             
+        }
+        
+    }
+}
+

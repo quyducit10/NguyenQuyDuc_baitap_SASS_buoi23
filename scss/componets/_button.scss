@@ -1,0 +1,20 @@
+.btnTabula{
+    @include styleButton(
+        $color-pink,$pd-6,$pd-3 + 2,$bd-1 solid $color-pink,$bd-2 + 10,$ls-1);
+    @include styleText(
+        $fs-1,$fw-2,$color-white
+    );
+    box-shadow: 0 0 0 3em $color-pink inset;
+
+    transition:0.4s ;
+    &:hover{
+        box-shadow: 0 0 0 1px $color-pink inset;
+    }
+}
+    .btn-send{
+        @include styleButton($color-pink,$pd-6 + 5,$pd-3 + 25,$bd-1 solid $color-pink,$bd-2 + 40,$ls-1);
+        
+    @include styleText(
+        $fs-1,$fw-2,$color-white
+    );
+    }

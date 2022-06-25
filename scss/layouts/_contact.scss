@@ -1,0 +1,124 @@
+
+
+.contact{
+    position: relative;
+    
+     .row{
+        display: flex;
+        
+        .img{
+            display: flex;
+        }
+        .col{
+            width: 50%;
+            padding: 10px 30px;
+            .item{
+                position: absolute;
+                top: 60px;
+                background-color: $color-white;
+                padding: 30px 15px;
+                text-align: center;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+                .name-email{
+                    padding-top: 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    .name{
+                        border: 1px solid rgba(0,0,0,0.3);
+                        padding: 8px;
+                        border-radius: 20px;
+
+                        &:focus{
+                            border: 1px solid rgba(0,0,0,0.7);
+                           
+                        }
+                        .icon{
+                           color: $color-pink
+                        }
+                        input{
+                            border: 1px solid transparent;
+                            &:focus{
+                                border-color: transparent;
+                                outline: none
+                            }
+                        };
+                    }
+                    .email{
+                        border: 1px solid rgba(0,0,0,0.3);
+                        padding: 8px;
+                        border-radius: 20px;
+                        .icon{
+                           color: $color-pink
+                        }
+                        input{
+                            border: 1px solid transparent;
+                            &:focus{
+                                border-color: transparent;
+                                outline: none
+                            }
+                        };
+                    }
+                }
+                .select{
+                    margin-top: 20px;
+                    border: 1px solid rgba(0,0,0,0.3);
+                    padding: 8px;
+                    border-radius: 20px;
+                    select{
+                        border: 1px solid transparent;
+                        &:focus{
+                            border-color: transparent;
+                            outline: none
+                        }
+                        
+                    }
+                    .language{
+                        text-align: left ;
+                        .icon{
+                            color:$color-pink;
+                        }
+                    }
+                }
+                .textarea{
+                    position: relative;
+                    margin-top: 20px;
+                    border: 1px solid rgba(0,0,0,0.3);
+                    padding: 8px;
+                    border-radius: 20px;
+                    textarea{
+                        margin-left: 20px;
+                        border: 1px solid transparent;
+                        &:focus{
+                            border-color: transparent;
+                            outline: none
+                        }
+                        
+                    }
+                
+                        text-align: left;
+                        .icon{
+                            color:$color-pink;
+                            position: absolute;
+                            top:8px;
+                            z-index: 5;
+                        }
+                    
+                }
+                .btn-sub{
+                    padding-top: 20px;
+                    text-align: left;
+                }
+            }
+        }
+     }
+}
+.wave{
+    background-image: url(/img/Wave_White_bottom_right_shape_01.png);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    top: -400px;
+    z-index: 5;
+    position: absolute;
+}
